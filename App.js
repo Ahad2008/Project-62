@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Screen1 from './screens/Screen1';
-import Screen2 from './screens/Screen2';
-import AppHeader from './components/AppHeader';
+import Screen1 from './Screen1';
+import Screen2 from './Screen2';
+import AppHeader from './AppHeader';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 
 export default class App extends React.Component {
